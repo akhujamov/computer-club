@@ -53,6 +53,7 @@ int getTotalMinutes(TimeStruct ts) {
 
 int main() {
     freopen("test_file.txt", "r", stdin);
+    freopen("result_file.txt", "w", stdout);
 
     std::deque<int> WaitList;
     std::string TimeOpenS, TimeCloseS, TimeS;
